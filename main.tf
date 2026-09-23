@@ -9,3 +9,8 @@ module "lambda" {
 module "dynamodb" {
   source = "./dynamodb"
 }
+
+
+module "vpc" {
+  source = "./vpc"
+}
