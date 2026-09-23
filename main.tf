@@ -14,3 +14,7 @@ module "dynamodb" {
 module "vpc" {
   source = "./vpc"
 }
+
+module "sns" {
+  source = "./sns"
+}
